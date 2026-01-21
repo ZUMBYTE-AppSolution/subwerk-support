@@ -54,17 +54,20 @@
       gap:14px;
       min-width:0;
     }
-    .logo{
-      width:54px;height:54px;border-radius:16px;
-      background:
-        url("logo.png") center/contain no-repeat,
+.logo{
+  width:54px;
+  height:54px;
+  border-radius:16px;
+
+  background:
+    url("logo.png") center/contain no-repeat,
+    linear-gradient(135deg, var(--cyan), var(--cyan2));
+
+  position:relative;
   overflow:hidden;
-      position:relative;
-      overflow:hidden;
-      border:1px solid rgba(255,255,255,.18);
-      box-shadow:0 16px 46px rgba(0,167,255,.22);
-      
-    }
+  border:1px solid rgba(255,255,255,.18);
+  box-shadow:0 16px 46px rgba(0,167,255,.22);
+}
     .logo:after{
       content:"";
       position:absolute; inset:-40%;
